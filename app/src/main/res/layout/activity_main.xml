@@ -46,7 +46,7 @@
         android:layout_marginBottom="120dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/textView"
-        app:srcCompat="@drawable/redWatchlogo"
+        app:srcCompat="@drawable/red_watch_logo"
         android:contentDescription="Red Watch Logo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
