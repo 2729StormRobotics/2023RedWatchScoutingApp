@@ -39,4 +39,14 @@
         app:layout_constraintVertical_bias="0.591"
         tools:ignore="TextContrastCheck" />
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="120dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:srcCompat="@drawable/redWatchlogo"
+        android:contentDescription="Red Watch Logo" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
