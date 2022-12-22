@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="412dp"
         android:layout_height="126dp"
         android:fontFamily="@font/righteous"
@@ -27,13 +28,15 @@
         android:id="@+id/button_Id"
         android:layout_width="124dp"
         android:layout_height="58dp"
-        android:text="Test"
+        android:text="@string/Test"
+        android:textColor="#000000"
         app:backgroundTint="#F34336"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.591" />
+        app:layout_constraintVertical_bias="0.591"
+        tools:ignore="TextContrastCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
