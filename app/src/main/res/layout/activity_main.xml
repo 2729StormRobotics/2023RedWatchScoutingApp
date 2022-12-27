@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
 
     <TextView
         android:id="@+id/textView"
@@ -24,11 +25,12 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.143" />
 
+
     <Button
-        android:id="@+id/button_Id"
+        android:id="@+id/toSoftware"
         android:layout_width="124dp"
         android:layout_height="58dp"
-        android:text="@string/Test"
+        android:text="@string/Software"
         android:textColor="#000000"
         app:backgroundTint="#F34336"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -48,5 +50,18 @@
         app:layout_constraintEnd_toEndOf="@+id/textView"
         app:srcCompat="@drawable/red_watch_logo"
         android:contentDescription="Red Watch Logo" />
+
+    <Button
+        android:id="@+id/toBAM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/BAM"
+        app:backgroundTint="#07FF30"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.667" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

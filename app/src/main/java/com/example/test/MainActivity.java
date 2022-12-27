@@ -8,16 +8,17 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button button;
+    Button buttonToSoftware;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        button = (Button) findViewById(R.id.button_Id);
+        // Code for button which will lead to software page
+        buttonToSoftware = (Button) findViewById(R.id.toSoftware);
 
-        button.setOnClickListener(view -> {
+        buttonToSoftware.setOnClickListener(view -> {
 
             Intent intent = new Intent(MainActivity.this, MainActivity2.class);
             startActivity(intent);
@@ -26,6 +27,17 @@ public class MainActivity extends AppCompatActivity {
 
         });
 
+        // Code for button which will lead to BAM page
+        buttonToSoftware = (Button) findViewById(R.id.toBAM);
+
+        buttonToSoftware.setOnClickListener(view -> {
+
+            Intent intent = new Intent(MainActivity.this, MainActivity3.class);
+            startActivity(intent);
+
+
+
+        });
 
     }
 }
