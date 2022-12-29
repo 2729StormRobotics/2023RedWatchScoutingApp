@@ -26,14 +26,14 @@ public class MainActivity extends AppCompatActivity {
         EditText insertUsername = findViewById(R.id.insertUsername);
         TextView welcomeMessage = findViewById(R.id.welcomeMessage);
 
-        // When user clicks
+        // When user clicks submit button
         Button buttonToSubmit = findViewById(R.id.submitUsername);
         buttonToSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 // The user has clicked the button
                 String userName = insertUsername.getText().toString();
-                welcomeMessage.setText("Hello " + userName);
+                welcomeMessage.setText("Hello " + userName + "!");
             }
         });
 
