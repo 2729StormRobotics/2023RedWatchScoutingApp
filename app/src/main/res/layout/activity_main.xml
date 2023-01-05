@@ -6,9 +6,17 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@android:drawable/screen_background_dark"
+        android:weightSum="10" />
+
+
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="412dp"
+        android:layout_width="400dp"
         android:layout_height="126dp"
         android:fontFamily="@font/righteous"
         android:text="@string/RedWatch"
@@ -25,11 +33,11 @@
         app:layout_constraintVertical_bias="0.143" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="124dp"
-        android:layout_height="58dp"
+        android:id="@+id/button1"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
         android:text="Test"
-        app:backgroundTint="#F34336"
+        android:background="@drawable/custom_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
